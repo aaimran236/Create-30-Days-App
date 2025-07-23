@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">30 Days of Grit</string>
+
+    <string name="day1">Day 1</string>
+    <string name="title1">Commence Your Journey With Unwavering Determination</string>
+    <string name="quote1">"The profound secret of making meaningful progress lies not in perfect conditions, but in summoning the courage to take that crucial first step forward." – Mark Twain</string>
+
+    <string name="day2">Day 2</string>
+    <string name="title2">Cultivate Consistent Daily Habits for Success</string>
+    <string name="quote2">"True achievement emerges not from sporadic acts of greatness, but through the steadfast application of disciplined effort day after day." – Marie Forleo</string>
+
+    <string name="day3">Day 3</string>
+    <string name="title3">Persist Through Challenges With Relentless Resolve</string>
+    <string name="quote3">"The essential measure of progress isn't your velocity, but your unwavering commitment to continue advancing despite all obstacles." – Confucius</string>
+
+    <string name="day4">Day 4</string>
+    <string name="title4">Unlock Your Innermost Strength and Potential</string>
+    <string name="quote4">"When you nurture genuine conviction in your capabilities, you've already conquered the most significant barrier on your path to victory." – Theodore Roosevelt</string>
+
+    <string name="day5">Day 5</string>
+    <string name="title5">Advance Courageously Beyond Comfort Zones</string>
+    <string name="quote5">"More aspirations perish from the paralysis of uncertainty than ever succumb to actual failure in the arena of action." – Suzy Kassem</string>
+
+    <string name="day6">Day 6</string>
+    <string name="title6">Conquer Your Deepest Fears With Valor</string>
+    <string name="quote6">"All meaningful accomplishments and treasures exist just beyond the intimidating fortress of your apprehensions and doubts." – George Addair</string>
+
+    <string name="day7">Day 7</string>
+    <string name="title7">Maintain an Insatiable Thirst for Knowledge</string>
+    <string name="quote7">"Perpetually preserve that ravenous curiosity for learning and embrace unconventional thinking throughout your entire journey." – Steve Jobs</string>
+
+    <string name="day8">Day 8</string>
+    <string name="title8">Value Incremental Progress and Minor Victories</string>
+    <string name="quote8">"Never underestimate the transformative power of tiny advancements; each microscopic step accumulates into monumental achievements over time." – Unknown</string>
+
+    <string name="day9">Day 9</string>
+    <string name="title9">Develop Unbreakable Resilience Through Adversity</string>
+    <string name="quote9">"True strength reveals itself not through avoiding falls, but through rising with greater determination after each setback encountered." – Japanese Proverb</string>
+
+    <string name="day10">Day 10</string>
+    <string name="title10">Pursue Audacious Goals With Bold Actions</string>
+    <string name="quote10">"Destiny consistently favors those courageous souls who dare to venture beyond conventional boundaries and predictable paths." – Latin Proverb</string>
+
+    <string name="day11">Day 11</string>
+    <string name="title11">Embrace the Transformative Power of Diligence</string>
+    <string name="quote11">"Between aspiration and realization lies the essential bridge of persistent effort that few choose to cross consistently." – Vidal Sassoon</string>
+
+    <string name="day12">Day 12</string>
+    <string name="title12">Direct Your Mental Energy With Precision</string>
+    <string name="quote12">"Your conscious attention functions as a creative force, manifesting outcomes precisely aligned with your dominant thoughts and visions." – Unknown</string>
+
+    <string name="day13">Day 13</string>
+    <string name="title13">Become Unstoppable Through Decisive Commitment</string>
+    <string name="quote13">"Your present reality emerges not from external conditions, but from the cumulative weight of your deliberate choices and actions." – Stephen R. Covey</string>
+
+    <string name="day14">Day 14</string>
+    <string name="title14">Proactively Create Opportunities Through Initiative</string>
+    <string name="quote14">"High-impact moments rarely occur spontaneously; they're engineered through strategic foresight and relentless execution of vision." – Chris Grosser</string>
+
+    <string name="day15">Day 15</string>
+    <string name="title15">Summon Courage for Transformative Decisions</string>
+    <string name="quote15">"Sometimes you must embrace uncertainty fully before life reveals the supportive structures awaiting your bold initiatives." – John Burroughs</string>
+
+    <string name="day16">Day 16</string>
+    <string name="title16">Recognize Your Significant Impact on Others</string>
+    <string name="quote16">"Operate daily with the profound awareness that your smallest actions generate meaningful consequences in others' lives." – William James</string>
+
+    <string name="day17">Day 17</string>
+    <string name="title17">Envision Monumental Possibilities Without Limits</string>
+    <string name="quote17">"Target extraordinary objectives so ambitious that even falling short positions you beyond ordinary achievements and expectations." – Norman Vincent Peale</string>
+
+    <string name="day18">Day 18</string>
+    <string name="title18">Discover Your Hidden Fortitude in Crisis</string>
+    <string name="quote18">"Human resilience reveals its full dimension only when adversity eliminates all alternatives except unyielding perseverance." – Bob Marley</string>
+
+    <string name="day19">Day 19</string>
+    <string name="title19">Welcome Transformative Growth Through Adaptation</string>
+    <string name="quote19">"Meaningful evolution initially feels uncomfortable, progresses through chaotic adjustments, and ultimately blossoms into magnificent outcomes." – Robin Sharma</string>
+
+    <string name="day20">Day 20</string>
+    <string name="title20">Eliminate Justifications and Accept Responsibility</string>
+    <string name="quote20">"Between reasons explaining inaction and tangible results demonstrating achievement, you cannot simultaneously accommodate both paradigms." – Arnold Schwarzenegger</string>
+
+    <string name="day21">Day 21</string>
+    <string name="title21">Prioritize Continuous Learning and Value Creation</string>
+    <string name="quote21">"Shift your fundamental purpose from chasing external validation to making substantive contributions that elevate humanity." – Albert Einstein</string>
+
+    <string name="day22">Day 22</string>
+    <string name="title22">Conquer Apprehensions by Following Passion</string>
+    <string name="quote22">"Never permit imagined catastrophes to dictate your direction; instead navigate by your heart's authentic aspirations and callings." – Roy T. Bennett</string>
+
+    <string name="day23">Day 23</string>
+    <string name="title23">Dedicate Yourself to Quiet Consistent Mastery</string>
+    <string name="quote23">"Channel your efforts into silent excellence, allowing your accomplishments to resonate louder than self-promotion ever could." – Frank Ocean</string>
+
+    <string name="day24">Day 24</string>
+    <string name="title24">Practice Endurance During Developmental Phases</string>
+    <string name="quote24">"Extraordinary achievements demand considerable gestation; maintain faith throughout the unseen maturation process unfolding beneath the surface." – Unknown</string>
+
+    <string name="day25">Day 25</string>
+    <string name="title25">Transform Setbacks Into Comeback Victories</string>
+    <string name="quote25">"Human greatness manifests not through avoiding failures, but through repeatedly resurrecting oneself after devastating collapses." – Confucius</string>
+
+    <string name="day26">Day 26</string>
+    <string name="title26">Reignite Your Aspirations at Any Age</string>
+    <string name="quote26">"Chronological age imposes no restrictions on establishing ambitious new objectives or cultivating revolutionary visions for existence." – C.S. Lewis</string>
+
+    <string name="day27">Day 27</string>
+    <string name="title27">Initiate Action Before Perfect Conditions Exist</string>
+    <string name="quote27">"Future regret often stems not from actions taken, but from postponing essential beginnings until imagined 'perfect' moments." – Karen Lamb</string>
+
+    <string name="day28">Day 28</string>
+    <string name="title28">Transcend Self-Imposed Psychological Constraints</string>
+    <string name="quote28">"Your most confining boundaries exist not in reality, but within perceptions and beliefs you've internalized over time." – Unknown</string>
+
+    <string name="day29">Day 29</string>
+    <string name="title29">Maintain Undivided Concentration on Objectives</string>
+    <string name="quote29">"Imitate time's relentless forward motion: persist continuously without distraction toward your predetermined destinations." – Sam Levenson</string>
+
+    <string name="day30">Day 30</string>
+    <string name="title30">Conclude Your Endeavors With Triumphant Energy</string>
+    <string name="quote30">"Neither accomplishments nor defeats possess permanence; authentic courage emerges through persevering when all seems lost." – Winston Churchill</string>
+
+
+</resources>
