@@ -5,10 +5,12 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -74,31 +76,37 @@ fun GritApp() {
 fun GritItem(grit: Grit,modifier: Modifier= Modifier){
     var expanded by remember { mutableStateOf(false) }
 
-    Card(modifier=modifier,
+    val color by animateColorAsState(
+        targetValue = if (expanded) MaterialTheme.colorScheme.tertiaryContainer
+        else MaterialTheme.colorScheme.primaryContainer
+    )
+
+    Card(modifier= modifier,
 //        shape = RoundedCornerShape(7.dp),
         onClick = {
             expanded=!expanded
-        }
+        },
     ) {
         Column(
             modifier=Modifier
-                .padding(top = 5.dp, start = 15.dp, end = 15.dp)
                 .animateContentSize(
                     animationSpec = spring(
                         dampingRatio = Spring.DampingRatioNoBouncy,
                         stiffness = Spring.StiffnessMedium
                     )
-                )
+                ).background(color=color)
         ) {
             Text(
                 text = stringResource(grit.day),
-                style = MaterialTheme.typography.displaySmall
+                style = MaterialTheme.typography.displaySmall,
+                modifier=Modifier
+                    .padding(top = 5.dp, start = 15.dp, end = 15.dp)
             )
 
             Text(
                 text = stringResource(grit.title),
                 style = MaterialTheme.typography.displayMedium,
-                modifier= Modifier.padding(top=5.dp, bottom = 5.dp)
+                modifier= Modifier.padding(top=3.dp, start = 15.dp, bottom = 3.dp, end = 15.dp)
             )
 
             Image(
@@ -108,13 +116,14 @@ fun GritItem(grit: Grit,modifier: Modifier= Modifier){
                 modifier = Modifier
                     .height(194.dp)
                     .fillMaxWidth()
+                    .padding(start = 15.dp, end = 15.dp)
             )
 
             if (expanded){
                 Text(
                     text = stringResource(grit.grit),
                     style = MaterialTheme.typography.bodyLarge,
-                    modifier= Modifier.padding(top=5.dp, bottom = 5.dp)
+                    modifier= Modifier.padding(top=3.dp, start = 15.dp, bottom = 5.dp, end = 15.dp)
                 )
             }
         }
@@ -129,7 +138,8 @@ fun TopAppBar(modifier: Modifier= Modifier){
         title = {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center
+                horizontalArrangement = Arrangement.Center,
+                modifier = modifier
             ){
                 Text(
                     text = stringResource(R.string.app_name),
